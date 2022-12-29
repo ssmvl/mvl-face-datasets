@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+
+# CFD directory
+CFD/*
+!CFD/.gitkeep
+
+# script-generated directories and files
+imgs-source/*
+imgs-normalized/*
+imgs-landmarks/*
+imgs-dataset/*
+img-lightness.fig
+landmarks.mat
+dataset.mat
+dataset.xlsx
