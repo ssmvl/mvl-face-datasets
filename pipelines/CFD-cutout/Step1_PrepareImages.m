@@ -21,7 +21,7 @@ end
 %%
 %  Copy neutral expression image files to the source directory
 %
-fprintf('copying image files to %s/ ...', srcImgDir);
+fprintf('copying image files to %s%s ...', srcImgDir, filesep);
 if ~exist(srcImgDir, 'dir')
 	mkdir(srcImgDir);
 end
